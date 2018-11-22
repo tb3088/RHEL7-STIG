@@ -1104,7 +1104,6 @@
   when:
       - rhel_07_020900
       - rhel7stig_complex
-      - ansible_selinux.status == "enabled"
   tags:
       - RHEL-07-020900
       - complexity-high
