@@ -25,9 +25,9 @@ Role Variables
 
 | Name              | Default Value       | Description          |
 |-------------------|---------------------|----------------------|
-| `rhel7stig_cat1_patch` | `yes` | Correct CAT I findings        |
-| `rhel7stig_cat2_patch` | `yes`  | Correct CAT II findings       |
-| `rhel7stig_cat3_patch` | `yes`  | Correct CAT III findings      |
+| `rhel7stig_cat1` | `yes`  | Correct CAT I findings        |
+| `rhel7stig_cat2` | `yes`  | Correct CAT II findings       |
+| `rhel7stig_cat3` | `yes`  | Correct CAT III findings      |
 | `rhel_07_######` | [see defaults/main.yml](./defaults/main.yml)  | Individual variables to enable/disable each STIG ID. |
 | `rhel7stig_gui` | `no` | Whether or not to run tasks related to auditing/patching the desktop environment |
 | `rhel7stig_system_is_router` | `no` | Run tasks that disable router functions. |

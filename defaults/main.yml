@@ -1,7 +1,7 @@
 ---
-rhel7stig_cat1_patch: yes
-rhel7stig_cat2_patch: yes
-rhel7stig_cat3_patch: yes
+rhel7stig_cat1: yes
+rhel7stig_cat2: yes
+rhel7stig_cat3: yes
 
 # We've defined complexity-high to mean that we cannot automatically remediate
 # the rule in question.  In the future this might mean that the remediation

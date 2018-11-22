@@ -20,21 +20,21 @@
 
 - name: Include CAT I patches
   include_tasks: fix-cat1.yml
-  when: rhel7stig_cat1_patch | bool
+  when: rhel7stig_cat1 | bool
   tags:
       - cat1
       - high
 
 - name: Include CAT II patches
   include_tasks: fix-cat2.yml
-  when: rhel7stig_cat2_patch | bool
+  when: rhel7stig_cat2 | bool
   tags:
       - cat2
       - medium
 
 - name: Include CAT III patches
   include_tasks: fix-cat3.yml
-  when: rhel7stig_cat3_patch | bool
+  when: rhel7stig_cat3 | bool
   tags:
       - cat3
       - low
